@@ -5,47 +5,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Actividades del módulo 1664</title>
 <style>
-:root{--bg:#EDEFEC;--card:#FFFFFF;--ink:#13201C;--ink2:#4C5B55;--line:#D4DAD3;
---accent:#2C6A5B;--accent-ink:#FFFFFF;--soft:#DCEAE3}
-@media (prefers-color-scheme: dark){:root{--bg:#111815;--card:#19211D;--ink:#E6EDE8;
---ink2:#9BAAA3;--line:#2C3A34;--accent:#74C2A8;--accent-ink:#0E1A15;--soft:#1E332C}}
+:root{--bg:#F2F8F5;--card:#FFFFFF;--ink:#10261E;--ink2:#46594F;--line:#CFE3D8;
+--accent:#0B7A52;--accent-ink:#FFFFFF;--soft:#DDF1E7;--hero1:#075E3F;--hero2:#0B7A52}
+@media (prefers-color-scheme: dark){:root{--bg:#0D1A15;--card:#14231D;--ink:#E4F2EA;
+--ink2:#9DB8AB;--line:#254236;--accent:#46C99A;--accent-ink:#06251A;
+--soft:#17382C;--hero1:#0A3F2D;--hero2:#0D5640}}
 *{box-sizing:border-box}[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);
 font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}
-main{max-width:760px;margin:0 auto;padding:24px 16px 40px}
-h1{font-size:1.5rem;margin:0 0 4px;line-height:1.25}
-.sub{color:var(--ink2);margin:0 0 18px}
-.aviso{background:var(--soft);border:1px solid var(--line);border-radius:10px;
-padding:12px 14px;margin-bottom:18px;font-size:.95rem}
+.hero{background:linear-gradient(135deg,var(--hero1),var(--hero2));color:#fff;position:relative;overflow:hidden}
+.hero-in{max-width:760px;margin:0 auto;padding:26px 16px 30px;display:flex;gap:14px;align-items:center;position:relative;z-index:1}
+.logo{flex:none;width:56px;height:56px;border-radius:14px;background:#fff;color:#0B7A52;
+display:flex;align-items:center;justify-content:center}
+.logo svg{width:34px;height:34px}
+h1{font-size:1.45rem;margin:0;line-height:1.25}
+.sub{margin:2px 0 0;opacity:.92;font-size:.98rem}
+.deco{position:absolute;right:-6px;top:-8px;color:#fff;opacity:.14;pointer-events:none}
+.deco svg{width:120px;height:120px;margin-left:-26px}
+main{max-width:760px;margin:0 auto;padding:18px 16px 40px}
+.aviso{background:var(--soft);border:1px solid var(--line);border-left:5px solid var(--accent);
+border-radius:10px;padding:12px 14px;margin-bottom:18px;font-size:.95rem}
 #tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
-#tabs button{font:inherit;min-height:44px;padding:8px 16px;border-radius:999px;
+#tabs button{font:inherit;min-height:44px;padding:8px 18px;border-radius:999px;
 border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
 #tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);
 border-color:var(--accent);font-weight:700}
-h2{font-size:1.15rem;margin:18px 0 6px}
-h3{font-size:1rem;margin:16px 0 8px;color:var(--ink2)}
+h2{display:flex;align-items:center;gap:8px;font-size:1.2rem;margin:18px 0 6px;color:var(--accent)}
+h3{font-size:.95rem;margin:16px 0 8px;color:var(--ink2);text-transform:uppercase;letter-spacing:.04em}
 ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
-.ap{display:block;font-size:.8rem;font-weight:700;color:var(--accent)}
-.t{display:block;font-weight:600;margin-bottom:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;
+box-shadow:0 1px 2px rgba(7,94,63,.08)}
+.ap{display:inline-block;font-size:.78rem;font-weight:700;color:var(--accent);background:var(--soft);
+border-radius:999px;padding:2px 10px;margin-bottom:6px}
+.t{display:block;font-weight:600;margin-bottom:10px}
 .acc{display:flex;flex-wrap:wrap;gap:8px}
-.btn{display:inline-block;min-height:44px;line-height:44px;padding:0 16px;border-radius:10px;
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:10px;
 background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600}
+.btn svg{flex:none}
 .btn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .fecha{display:block;margin-top:8px;font-size:.78rem;color:var(--ink2)}
-footer{margin-top:28px;color:var(--ink2);font-size:.85rem}
+footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink2);font-size:.85rem;
+display:flex;align-items:center;gap:8px}
+footer svg{color:var(--accent);flex:none}
 </style>
 </head>
 <body>
+<header class="hero">
+<div class="deco"><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-45 12 12)"><rect x="2.5" y="8" width="19" height="8" rx="4"/><path d="M12 8v8"/></g></svg><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="m13 9 6-7"/></svg></div>
+<div class="hero-in">
+<div class="logo"><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg></div>
+<div><h1>Actividades del módulo 1664</h1><p class="sub">Digitalización aplicada a los sectores productivos · Farmacia y Parafarmacia</p></div>
+</div>
+</header>
 <main>
-<h1>Actividades del módulo 1664</h1>
-<p class="sub">Digitalización aplicada a los sectores productivos</p>
 <div class="aviso"><strong>Cómo se hace:</strong> pulsa un botón, escribe tu nombre, pulsa «Empezar»,
 contesta y al final genera el PDF de respuestas para subirlo a Classroom. Si algo no funciona, ábrelo con
 <strong>Chrome</strong> o <strong>Safari</strong>, no desde una app de correo o mensajería.</div>
 <div id="tabs" role="tablist" hidden></div>
-<section class="ud" id="ud1" data-label="Unidad 1"><h2>Unidad 1</h2><h3>Apartados</h3><ul><li class="card"><span class="ap">Apartado 1.2</span><span class="t">Economía lineal y economía circular: modelos de empresa</span><span class="acc"><a class="btn" href="UD01/actividad_Ap1.2.html">Actividad</a><a class="btn" href="UD01/autoevaluacion_Ap1.2.html">Autoevaluación</a></span><span class="fecha">Actualizado: 10/10/2026</span></li><li class="card"><span class="ap">Apartado 1.3</span><span class="t">Modelos de empresas y repercusión en el medioambiente</span><span class="acc"><a class="btn" href="UD01/actividad_Ap1.3.html">Actividad</a><a class="btn" href="UD01/autoevaluacion_Ap1.3.html">Autoevaluación</a></span><span class="fecha">Actualizado: 10/10/2026</span></li></ul></section>
-<footer>Autor: Javier Carrasco López</footer>
+<section class="ud" id="ud1" data-label="Unidad 1"><h2><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg> Unidad 1</h2><h3>Apartados</h3><ul><li class="card"><span class="ap">Apartado 1.2</span><span class="t">Economía lineal y economía circular: modelos de empresa</span><span class="acc"><a class="btn" href="UD01/actividad_Ap1.2.html"><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg><span>Actividad</span></a><a class="btn" href="UD01/autoevaluacion_Ap1.2.html"><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h10M10 12h10M10 18h10"/><path d="m3.5 6 1.5 1.5L7.5 5M3.5 12l1.5 1.5L7.5 11M3.5 18l1.5 1.5L7.5 17"/></svg><span>Autoevaluación</span></a></span><span class="fecha">Actualizado: 10/10/2026</span></li><li class="card"><span class="ap">Apartado 1.3</span><span class="t">Modelos de empresas y repercusión en el medioambiente</span><span class="acc"><a class="btn" href="UD01/actividad_Ap1.3.html"><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg><span>Actividad</span></a><a class="btn" href="UD01/autoevaluacion_Ap1.3.html"><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h10M10 12h10M10 18h10"/><path d="m3.5 6 1.5 1.5L7.5 5M3.5 12l1.5 1.5L7.5 11M3.5 18l1.5 1.5L7.5 17"/></svg><span>Autoevaluación</span></a></span><span class="fecha">Actualizado: 10/10/2026</span></li></ul></section>
+<footer><svg class="ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg><span>Autor: Javier Carrasco López</span></footer>
 </main>
 <script>
 (function(){
