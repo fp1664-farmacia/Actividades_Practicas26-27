@@ -1,0 +1,37 @@
+{
+ "UD01": {
+  "apartados": {
+   "Ap1.2": {
+    "titulo": "Economía lineal y economía circular: modelos de empresa",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.2.html",
+      "etiqueta": "Actividad",
+      "fecha": "10/10/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.2.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
+   },
+   "Ap1.3": {
+    "titulo": "Modelos de empresas y repercusión en el medioambiente",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.3.html",
+      "etiqueta": "Actividad",
+      "fecha": "10/10/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.3.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
+   }
+  },
+  "practicas": {}
+ }
+}
