@@ -47,6 +47,17 @@
     }
    }
   },
-  "practicas": {}
+  "practicas": {
+   "P1": {
+    "titulo": "1664",
+    "enlaces": {
+     "practica": {
+      "ruta": "UD01/practica_P1.html",
+      "etiqueta": "Práctica",
+      "fecha": "06/11/2026"
+     }
+    }
+   }
+  }
  }
 }
