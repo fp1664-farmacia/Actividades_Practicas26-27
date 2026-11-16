@@ -1,6 +1,51 @@
 {
  "UD01": {
   "apartados": {
+   "Ap1.2": {
+    "titulo": "Economía lineal y economía circular: modelos de empresa",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.2.html",
+      "etiqueta": "Actividad",
+      "fecha": "10/10/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.2.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
+   },
+   "Ap1.3": {
+    "titulo": "Modelos de empresas y repercusión en el medioambiente",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.3.html",
+      "etiqueta": "Actividad",
+      "fecha": "10/10/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.3.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
+   },
+   "Ap1.4": {
+    "titulo": "Importancia del reciclaje y del uso de materiales sostenibles",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.4.html",
+      "etiqueta": "Actividad",
+      "fecha": "06/11/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.4.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
+   },
    "Ap1.5": {
     "titulo": "Procesos reales basados en economía lineal y economía circular",
     "enlaces": {
@@ -15,9 +60,34 @@
       "fecha": "10/10/2026"
      }
     }
+   },
+   "Ap1.6": {
+    "titulo": "Comparativa de los modelos: impacto medioambiental y ODS",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.6.html",
+      "etiqueta": "Actividad",
+      "fecha": "06/11/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.6.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
    }
   },
   "practicas": {
+   "P1": {
+    "titulo": "Salva la farmacia",
+    "enlaces": {
+     "practica": {
+      "ruta": "UD01/practica_P1.html",
+      "etiqueta": "Práctica",
+      "fecha": "06/11/2026"
+     }
+    }
+   },
    "P2": {
     "titulo": "El ciclo de vida de un producto de la farmacia",
     "enlaces": {
