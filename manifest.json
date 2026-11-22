@@ -60,6 +60,21 @@
       "fecha": "10/10/2026"
      }
     }
+   },
+   "Ap1.6": {
+    "titulo": "Comparativa de los modelos: impacto medioambiental y ODS",
+    "enlaces": {
+     "actividad": {
+      "ruta": "UD01/actividad_Ap1.6.html",
+      "etiqueta": "Actividad",
+      "fecha": "06/11/2026"
+     },
+     "autoevaluacion": {
+      "ruta": "UD01/autoevaluacion_Ap1.6.html",
+      "etiqueta": "Autoevaluación",
+      "fecha": "10/10/2026"
+     }
+    }
    }
   },
   "practicas": {
@@ -78,6 +93,16 @@
     "enlaces": {
      "practica": {
       "ruta": "UD01/practica_P2.html",
+      "etiqueta": "Práctica",
+      "fecha": "06/11/2026"
+     }
+    }
+   },
+   "P3": {
+    "titulo": "La farmacia en el espejo: procesos reales, comparativa y ODS",
+    "enlaces": {
+     "practica": {
+      "ruta": "UD01/practica_P3.html",
       "etiqueta": "Práctica",
       "fecha": "06/11/2026"
      }
